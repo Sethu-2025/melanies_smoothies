@@ -23,7 +23,7 @@ st.dataframe(data=my_dataframe, use_container_width=True)
 ingredients_list = st.multiselect("Choose up to 5 ingredients:",
   my_dataframe, max_selections=5)
 if ingredients_list:
-Ingredients_string =''
+ Ingredients_string =''
 for fruit_chosen in ingredients_list:
     Ingredients_string += fruit_chosen + ' '
     #st.write(Ingredients_string)
